@@ -42,3 +42,14 @@ div .footer-icon:hover {
 div .footer-icon {
     transition: transform 0.5s ease-in-out;
 }
+
+.p-card:hover {
+    cursor: pointer;
+    transform: translateX(-50px);
+    background: #047aed;
+}
+
+.p-card {
+    transition: transform 7s ease-in-out;
+    transition: background-color 1s ease-in-out;
+}
