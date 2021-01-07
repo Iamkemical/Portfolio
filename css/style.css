@@ -50,6 +50,5 @@ div .footer-icon {
 }
 
 .p-card {
-    transition: transform 7s ease-in-out;
-    transition: background-color 1s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
