@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.height {
+    min-height: 70vh;
+}
+
+/* Services */
+div .service-card:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+}
+
+div .service-card {
+    transition: transform 0.3s ease-in;
+}
+
+/* Contact Us */
+.btn-send:hover {
+    margin-right: 5px;
+}
+
+.text-area {
+    min-height: 200px;
+}
+
+
+/* Footer*/
+div .footer-icon:hover {
+    transform: translateY(-15px);
+}
+
+div .footer-icon {
+    transition: transform 0.5s ease-in-out;
+}
