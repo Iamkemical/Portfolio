@@ -14,6 +14,38 @@ body{
     min-height: 70vh;
 }
 
+/* Navbar */
+.navbar {
+    background: transparent !important;
+    transition: 1.5s;
+}
+.navbar.scrolled {
+    background: #add8e6 !important;
+    transition: 1.5s;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: #add8e6;
+    background: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color:#000;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #000;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus
+.navbar-light .navbar-brand:visited {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 /* Services */
 div .service-card:hover {
     cursor: pointer;
@@ -46,9 +78,21 @@ div .footer-icon {
 .p-card:hover {
     cursor: pointer;
     transform: translateX(-50px);
-    background: #047aed;
+    background: #add8e6;
 }
 
 .p-card {
     transition: transform 1s ease-in-out;
+}
+
+.footer {
+    background: #add8e6;
+}
+
+.project-section {
+    background: #b2beb5;
+}
+
+.card-bg {
+    background: #add8e6;
 }
