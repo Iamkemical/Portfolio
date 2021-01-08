@@ -192,18 +192,23 @@
                     </div>
 
                     <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="col-lg-6 col-md-6 col-sm-12 my-5">
-                        <form>
+                        <form name="contact" method="POST" netlify-hotspot="bot-field" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact">
+                            <p class="hidden">
+                                <label>Don't fill this out if you're human: <input name="bot-field" />
+                                </label>
+                            </p>
                             <div class="form-group">
-                                <input type="text" placeholder="Your name / company" class="form-control py-4 border-0">
+                                <input type="text" name="name" required placeholder="Your name / company" class="form-control py-4 border-0">
                             </div>
                             <div class="form-group">
-                                <input type="text" placeholder="Your email address" class="form-control py-4 border-0">
+                                <input type="email" name="email" required placeholder="Your email address" class="form-control py-4 border-0">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control pb-5 border-0 text-area" placeholder="Your message"></textarea>
+                                <textarea name="message" required class="form-control pb-5 border-0 text-area" placeholder="Your message"></textarea>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <input class="btn btn-outline-primary w-25 rounded btn-send" value="Send" type="button">
+                                <input class="btn btn-outline-primary w-25 rounded btn-send" value="Send" type="submit">
                             </div>
                         </form>
                     </div>

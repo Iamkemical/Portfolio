@@ -96,3 +96,8 @@ div .footer-icon {
 .card-bg {
     background: #add8e6;
 }
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
