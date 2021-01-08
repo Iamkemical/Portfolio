@@ -90,11 +90,12 @@ div .footer-icon {
 }
 
 .project-section {
-    background: #b2beb5;
+    background: #F4F4F1;
 }
 
 .card-bg {
     background: #add8e6;
+    color: #000;
 }
 
 .hidden {
