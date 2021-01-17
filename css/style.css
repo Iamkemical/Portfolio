@@ -102,3 +102,12 @@ div .footer-icon {
     visibility: hidden;
     height: 0;
 }
+
+.img-box {
+    transition: transform 0.7s ease-in-out;
+}
+
+.img-box:hover {
+    cursor: pointer;
+    transform: translateX(30px);
+}
