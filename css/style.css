@@ -111,3 +111,8 @@ div .footer-icon {
     cursor: pointer;
     transform: translateX(30px);
 }
+
+.download-btn:hover {
+    background: #add8e6;
+    cursor: none;
+}
