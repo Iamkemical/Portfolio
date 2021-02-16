@@ -116,3 +116,7 @@ div .footer-icon {
     background: #add8e6;
     cursor: none;
 }
+
+a:hover {
+    text-decoration: none;
+}
